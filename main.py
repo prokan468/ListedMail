@@ -12,7 +12,7 @@ LABEL_NAME = 'AutoResponder'
 MIN_INTERVAL = 45
 MAX_INTERVAL = 120
 
-SERVICE_ACCOUNT_FILE = "listedcrawler-65fa92d72906.json"
+SERVICE_ACCOUNT_FILE = "secretapi.json"
 credentials = service_account.Credentials.from_service_account_file(
     SERVICE_ACCOUNT_FILE, scopes=GMAIL_SCOPES
 )
